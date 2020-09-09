@@ -31,6 +31,13 @@ public class Principal {
        
        Thread3 fi = new Thread3("Processo 3- Cálculo de Fibonacci");
        fi.setTempo(500);
+       
+       SomaTres s3 = new SomaTres(800);
+       s3.setValor1(20);
+       s3.setValor2(40);
+       s3.setValor3(60);
+       Thread ts3 = new Thread(s3);
+       ts3.start();
         
     }
 }
