@@ -1,4 +1,4 @@
-package tarefas;
+package Threads;
 
 public class Thread1 extends Thread {
     private String nome;

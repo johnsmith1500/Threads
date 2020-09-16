@@ -9,7 +9,7 @@
  * @author João Victor
  */
 
-package tarefas;
+package Threads;
 
 public class Thread2 extends Thread{
     private String nome;
